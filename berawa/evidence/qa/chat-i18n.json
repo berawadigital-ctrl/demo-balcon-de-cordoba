@@ -1,0 +1,453 @@
+{
+ "url": "http://127.0.0.1:42147/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué tipos de habitación hay?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "El hotel tiene 10 habitaciones: dobles pequeñas interiores, dobles superiores, triple familiar, deluxe con terraza y junior suites."
+    },
+    {
+     "q": "¿Tiene aire acondicionado?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Las habitaciones tienen TV, aire acondicionado, WiFi, kettle con surtido de tés y café, amenities ecológicos, minibar (con cargo) y caja fue"
+    },
+    {
+     "q": "¿A qué hora es el check-in?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "La habitación está disponible a partir de las 15:00 del día de llegada y debe dejarse antes de las 12:00 del día de salida. Puedes dejar las"
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "No tienen aparcamiento propio ni servicio de aparcacoches. Recomiendan el Parking Mezquita, en la calle Cairuán, a pocos metros; también el "
+    },
+    {
+     "q": "¿Se admiten mascotas?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "No: según su web, no se admiten mascotas en las habitaciones."
+    },
+    {
+     "q": "¿Está incluido el desayuno?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Sirven un desayuno a la carta, de 8:00 a 10:30. Si está incluido depende de la tarifa elegida: se indica en los servicios de la tarifa y en "
+    },
+    {
+     "q": "¿Hay restaurante?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "El hotel tiene espacios de restauración en el patio del naranjo y el salón interior, y una terraza con vistas a la Mezquita-Catedral y al ca"
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Está en la calle Encarnación 8, 14003 Córdoba, en pleno casco histórico y a pocos pasos de la Mezquita-Catedral. Desde el hotel se puede ir "
+    },
+    {
+     "q": "¿Es accesible para personas con movilidad reducida?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Sí: tienen habitación adaptada y ascensor en el edificio. Si tienes necesidades concretas de movilidad, contacta con el hotel antes de reser"
+    },
+    {
+     "q": "¿Se admiten niños?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sí: si viajas con niños, indícales el número de personas y sus edades para orientarte. Tienen cunas y camas adicionales."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Según su web, puedes reservar a través de su web oficial o contactando directamente con el hotel (+34 957 498 478 o info@balcondecordoba.com"
+    },
+    {
+     "q": "¿Cuál es el teléfono?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Teléfono +34 957 498 478; correo info@balcondecordoba.com."
+    },
+    {
+     "q": "¿Qué historia tiene el edificio?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "El hotel ocupa un edificio del siglo XVII que perteneció al antiguo convento de la Encarnación, construido en 1510, y conserva más de cien r"
+    },
+    {
+     "q": "¿Tienen piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 957 498 478 · info@balcondecordoba.com."
+    },
+    {
+     "q": "¿Cuánto cuesta una noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 957 498 478 · info@balcondecordoba.com."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Según su web, puedes reservar a través de su web oficial o contactando directamente con el hotel (+34 957 498 478 o info@balcondecordoba.com"
+    }
+   ],
+   "chips": [
+    "¿Qué tipos de habitación hay?",
+    "¿Hay parking?",
+    "¿Cómo es el desayuno?",
+    "¿Cómo se reserva?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "intro_k",
+    "send",
+    "svc1",
+    "svc5",
+    "svc6",
+    "room0_n",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quins tipus d'habitació hi ha?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "L'hotel té 10 habitacions: dobles petites interiors, dobles superiors, triple familiar, deluxe amb terrassa i junior suites."
+    },
+    {
+     "q": "Té aire condicionat?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les habitacions tenen TV, aire condicionat, WiFi, kettle amb assortit de tes i cafè, amenities ecològics, minibar (amb càrrec) i caixa forta"
+    },
+    {
+     "q": "A quina hora és el check-in?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "L'habitació està disponible a partir de les 15:00 del dia d'arribada i s'ha de deixar abans de les 12:00 del dia de sortida. Pots deixar les"
+    },
+    {
+     "q": "Hi ha pàrquing?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "No tenen aparcament propi ni servei d'aparcacotxes. Recomanen el Parking Mezquita, al carrer Cairuán, a pocs metres; també el Parking La Rib"
+    },
+    {
+     "q": "S'admeten mascotes?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "No: segons la seva web, no s'admeten mascotes a les habitacions."
+    },
+    {
+     "q": "Està inclòs l'esmorzar?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Serveixen un esmorzar a la carta, de 8:00 a 10:30. Si està inclòs depèn de la tarifa triada: s'indica als serveis de la tarifa i a la confir"
+    },
+    {
+     "q": "Hi ha restaurant?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "L'hotel té espais de restauració al pati del taronger i al saló interior, i una terrassa amb vistes a la Mesquita-Catedral i al centre histò"
+    },
+    {
+     "q": "On és l'hotel?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "És al carrer Encarnación 8, 14003 Còrdova, en ple centre històric i a pocs passos de la Mesquita-Catedral. Des de l'hotel es pot anar a peu "
+    },
+    {
+     "q": "És accessible per a persones amb mobilitat reduïda?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Sí: tenen habitació adaptada i ascensor a l'edifici. Si tens necessitats concretes de mobilitat, contacta amb l'hotel abans de reservar."
+    },
+    {
+     "q": "S'admeten nens?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sí: si viatges amb nens, indica'ls el nombre de persones i les edats per orientar-te. Tenen bressols i llits addicionals."
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Segons la seva web, pots reservar a través de la seva web oficial o contactant directament amb l'hotel (+34 957 498 478 o info@balcondecordo"
+    },
+    {
+     "q": "Quin és el telèfon?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Telèfon +34 957 498 478; correu info@balcondecordoba.com."
+    },
+    {
+     "q": "Quina història té l'edifici?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "L'hotel ocupa un edifici del segle XVII que va pertànyer a l'antic convent de l'Encarnación, construït el 1510, i conserva més de cent reste"
+    },
+    {
+     "q": "Teniu piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 957 498 478 · info@balcondecordoba.com."
+    },
+    {
+     "q": "Quant costa una nit?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 957 498 478 · info@balcondecordoba.com."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Segons la seva web, pots reservar a través de la seva web oficial o contactant directament amb l'hotel (+34 957 498 478 o info@balcondecordo"
+    }
+   ],
+   "chips": [
+    "Quins tipus d'habitació hi ha?",
+    "Hi ha pàrquing?",
+    "Com és l'esmorzar?",
+    "Com es reserva?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "svc1",
+    "svc5"
+   ],
+   "chat": [
+    {
+     "q": "What room types are there?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "The hotel has 10 rooms: small interior doubles, superior doubles, a family triple, deluxe with terrace and junior suites."
+    },
+    {
+     "q": "Is there air conditioning?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Rooms have a TV, air conditioning, WiFi, a kettle with a selection of teas and coffee, eco amenities, a minibar (charged) and a safe."
+    },
+    {
+     "q": "What time is check-in?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "The room is available from 15:00 on the day of arrival and must be vacated before 12:00 on the day of departure. You can leave your luggage "
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "They have no car park of their own and no valet service. They recommend Parking Mezquita, on Calle Cairuán, a few metres away; you can also "
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "No: according to their website, pets are not admitted in the rooms."
+    },
+    {
+     "q": "Is breakfast included?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "They serve an à la carte breakfast, from 8:00 to 10:30. Whether it is included depends on the chosen rate: it is shown in the rate services "
+    },
+    {
+     "q": "Is there a restaurant?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "The hotel has dining spaces in the orange tree patio and the interior lounge, and a terrace with views of the Mosque-Cathedral and the histo"
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "It is at Calle Encarnación 8, 14003 Córdoba, in the heart of the historic centre and a few steps from the Mosque-Cathedral. From the hotel y"
+    },
+    {
+     "q": "Is it accessible for reduced mobility?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Yes: they have an adapted room and a lift in the building. If you have specific mobility needs, contact the hotel before booking."
+    },
+    {
+     "q": "Are children welcome?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Yes: if you travel with children, tell them the number of people and their ages so they can guide you. They have cots and extra beds."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "According to their website, you can book through their official website or by contacting the hotel directly (+34 957 498 478 or info@balcond"
+    },
+    {
+     "q": "What is the phone number?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Phone +34 957 498 478; email info@balcondecordoba.com."
+    },
+    {
+     "q": "What history does the building have?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "The hotel occupies a seventeenth-century building that belonged to the former Convent of the Encarnación, built in 1510, and preserves over "
+    },
+    {
+     "q": "Do you have a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 957 498 478 · info@balcondecordoba.com."
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 957 498 478 · info@balcondecordoba.com."
+    },
+    {
+     "q": "Confirm that there is a free room tomorrow",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "According to their website, you can book through their official website or by contacting the hotel directly (+34 957 498 478 or info@balcond"
+    }
+   ],
+   "chips": [
+    "What room types are there?",
+    "Is there parking?",
+    "What is breakfast like?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "svc1",
+    "svc5"
+   ],
+   "chat": [
+    {
+     "q": "Quels types de chambre y a-t-il ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "L'hôtel compte 10 chambres : doubles petites intérieures, doubles supérieures, triple familiale, deluxe avec terrasse et junior suites."
+    },
+    {
+     "q": "Y a-t-il la climatisation ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les chambres ont une TV, la climatisation, le WiFi, une bouilloire avec assortiment de thés et de café, des amenities écologiques, un miniba"
+    },
+    {
+     "q": "À quelle heure est le check-in ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "La chambre est disponible à partir de 15:00 le jour d'arrivée et doit être libérée avant 12:00 le jour du départ. Vous pouvez laisser vos ba"
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Ils n'ont pas de parking propre ni de service de voiturier. Ils recommandent le Parking Mezquita, calle Cairuán, à quelques mètres ; vous po"
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Non : selon leur site, les animaux ne sont pas admis dans les chambres."
+    },
+    {
+     "q": "Le petit-déjeuner est-il inclus ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Ils servent un petit-déjeuner à la carte, de 8:00 à 10:30. S'il est inclus dépend du tarif choisi : c'est indiqué dans les services du tarif"
+    },
+    {
+     "q": "Y a-t-il un restaurant ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "L'hôtel a des espaces de restauration dans le patio de l'oranger et le salon intérieur, et une terrasse avec vue sur la Mosquée-Cathédrale e"
+    },
+    {
+     "q": "Où est l'hôtel ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Il se trouve calle Encarnación 8, 14003 Cordoue, en plein centre historique et à quelques pas de la Mosquée-Cathédrale. Depuis l'hôtel on pe"
+    },
+    {
+     "q": "Est-il accessible à mobilité réduite ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Oui : ils ont une chambre adaptée et un ascenseur dans le bâtiment. Si vous avez des besoins précis de mobilité, contactez l'hôtel avant de "
+    },
+    {
+     "q": "Les enfants sont-ils admis ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Oui : si vous voyagez avec des enfants, indiquez-leur le nombre de personnes et leurs âges pour vous orienter. Ils ont des lits bébé et des "
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Selon leur site, vous pouvez réserver via leur site officiel ou en contactant directement l'hôtel (+34 957 498 478 ou info@balcondecordoba.c"
+    },
+    {
+     "q": "Quel est le téléphone ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Téléphone +34 957 498 478 ; e-mail info@balcondecordoba.com."
+    },
+    {
+     "q": "Quelle histoire a le bâtiment ?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "L'hôtel occupe un bâtiment du XVIIe siècle ayant appartenu à l'ancien couvent de l'Encarnación, construit en 1510, et conserve plus de cent "
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 957 498 478 · info@balcondecordoba.com."
+    },
+    {
+     "q": "Combien coûte une nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 957 498 478 · info@balcondecordoba.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre libre demain",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Selon leur site, vous pouvez réserver via leur site officiel ou en contactant directement l'hôtel (+34 957 498 478 ou info@balcondecordoba.c"
+    }
+   ],
+   "chips": [
+    "Quels types de chambre y a-t-il ?",
+    "Y a-t-il un parking ?",
+    "Comment est le petit-déjeuner ?",
+    "Comment réserver ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
