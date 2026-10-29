@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-balcon-de-cordoba",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-29T04:35:00+01:00",
+ "updated_at": "2026-10-29T04:37:00+01:00",
+ "business": {
+  "name": "Hotel Balcón de Córdoba",
+  "legal_name": "E8HBC S.L.",
+  "registry_ids": [
+   "CIF B56393960"
+  ],
+  "url": "https://balcondecordoba.com/",
+  "domain": "balcondecordoba.com",
+  "municipality": "Córdoba",
+  "province": "Córdoba",
+  "address": "Calle Encarnación 8 · 14003 Córdoba",
+  "phones": [
+   "957 498 478"
+  ],
+  "emails": [
+   "info@balcondecordoba.com"
+  ],
+  "sector": "hotel 4 estrellas en casa centenaria"
+ },
+ "rating": {
+  "value": 4.6,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Balc%C3%B3n+de+C%C3%B3rdoba/@37.8805562,-4.7792074,17z/data=!3m1!5s0xd6d2082ca044069:0xca8d2f6993b80cf1!4m9!3m8!1s0xd6d2082b63eed09:0xa236bc937cfc99fc!5m2!4m1!1i2!8m2!3d37.8805562!4d-4.7792074!16s%2Fg%2F1hc1j81jz",
+  "date": "2026-10-29T04:24:11+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "ca",
+  "en",
+  "fr"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "mail",
+  "email": "info@balcondecordoba.com",
+  "note": "La web del negocio reserva por su web oficial o contactando con el hotel; la demo usa solo contacto real (correo y telefono)."
+ },
+ "audit_original": {
+  "url": "https://balcondecordoba.com/",
+  "date": "2026-10-29T04:35:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: hotel urbano con precedente en demos de esta tanda",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
