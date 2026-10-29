@@ -1,0 +1,50 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://balcondecordoba.com/",
+ "read_at": "2026-10-29T04:27:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://balcondecordoba.com/",
+   "sha256": "9ec2b9efc81732d969761d8db790239b15e3253019a53f68987505474aade464",
+   "chars": 10018
+  },
+  {
+   "url": "https://balcondecordoba.com/habitaciones/pantea/",
+   "sha256": "4f7f5bba1ae7f1d169f82863e8e555754c86a7f8fb4de8c24d85f7b41a4c4987",
+   "chars": 2999
+  },
+  {
+   "url": "https://balcondecordoba.com/historia/",
+   "sha256": "494ef7901eb6812720aa7de372bb3ae71c57b20d75ef3eafa7710fb1a17e6e27",
+   "chars": 3992
+  },
+  {
+   "url": "https://balcondecordoba.com/politica-de-proteccion-de-datos/",
+   "sha256": "a0724b3d27edbf942fa6fefde165e8f378441aba7899f40c0cc250d15c4730b8",
+   "chars": 5375
+  },
+  {
+   "url": "https://balcondecordoba.com/restaurante/",
+   "sha256": "11ad0e7cff597363f1733d7c91a08964d9b5bc7f2e84e60044b574bcb7fa7012",
+   "chars": 4183
+  }
+ ],
+ "other_pages_read": [
+  "https://balcondecordoba.com",
+  "https://balcondecordoba.com/?lang=en",
+  "https://balcondecordoba.com/como-llegar/",
+  "https://balcondecordoba.com/condiciones-de-contratacion/",
+  "https://balcondecordoba.com/eventos/",
+  "https://balcondecordoba.com/galeria/",
+  "https://balcondecordoba.com/habitaciones/",
+  "https://balcondecordoba.com/habitaciones/?lang=en",
+  "https://balcondecordoba.com/habitaciones/anahita/",
+  "https://balcondecordoba.com/habitaciones/artemisa/",
+  "https://balcondecordoba.com/habitaciones/maryam/",
+  "https://balcondecordoba.com/habitaciones/nahal/",
+  "https://balcondecordoba.com/habitaciones/ruzbahan/",
+  "https://balcondecordoba.com/nuestros-clientes/",
+  "https://balcondecordoba.com/prensa/"
+ ]
+}

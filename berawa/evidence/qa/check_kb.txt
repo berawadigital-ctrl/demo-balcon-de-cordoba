@@ -1,0 +1,3 @@
+entradas 15 fallos de citas/cifras 0
+knowledge.json coincide con knowledge_balcon_de_cordoba.py
+REGLA DE PRECIOS: CUMPLE
